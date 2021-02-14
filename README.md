@@ -1,4 +1,4 @@
-# Сборка Docker Image c NGINX + CryptoPro CSP + плагин c ГОСТ алгоритмами при TLS соединении
+# Сборка Docker Image c NGINX + CryptoPro CSP + плагин c ГОСТ алгоритмами для TLS
 
 1. Поместить дистрибутив CryptoPRO CSP в папку `files/`, поправить имя дистрибутива
    в файле `build.sh` если отличается, рекомендуется версия не менее 5.0.11998-6
