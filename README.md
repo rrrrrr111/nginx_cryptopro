@@ -9,7 +9,7 @@
 ## Создание контейнера
 Например:
 
-	docker run -d \
+	docker run -d --privileged \
         --name nginx \
         --net subnet01 --ip 172.18.0.18 \
         -p 8094:80 -p 8092:443 \
